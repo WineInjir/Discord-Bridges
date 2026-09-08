@@ -4,7 +4,7 @@ from libs import telegram_user as telegram
 from libs import database as db
 
 async def main():
-    await bot.test()
+    await db.main()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(bot.main())

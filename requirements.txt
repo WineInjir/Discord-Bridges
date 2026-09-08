@@ -1,3 +1,4 @@
 telethon
 discord
 tortoise-orm[asyncpg]
+python-dotenv
